@@ -1,0 +1,37 @@
+.h5{
+  @apply font-Poppins font-semibold text-base text-black
+}
+.p{
+  @apply font-Poppins text-sm 
+}
+.h2{
+  @apply font-Inter font-extrabold  text-[48px] text-[#18191F] leading-[64px]
+}
+
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #b00000;
+  text-shadow: 0 0 0.25px currentcolor;
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs .ant-tabs-ink-bar {
+  
+  background: #b00000;
+ 
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs .ant-tabs-tab {
+  font-size: 15px;
+  font-weight:600;
+  cursor: pointer;
+  color: #D6D4D4;
+  font-family: "Poppins", sans-serif;
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs .ant-tabs-tab-btn:focus:not(:focus-visible), :where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs .ant-tabs-tab-remove:focus:not(:focus-visible), :where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs .ant-tabs-tab-btn:active, :where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs .ant-tabs-tab-remove:active {
+  color: #b00000;
+}
+
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs {
+  color: #2E2E2E;
+  font-size: 64px;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
