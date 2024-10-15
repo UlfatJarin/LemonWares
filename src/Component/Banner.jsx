@@ -13,7 +13,7 @@ const Banner = () => {
                 <div>
                     <Tabsant />
                     <p className='max-w-[448px] font-Inter text-[#808080] pt-8 pb-12'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
-                    <Button className='p mr-6' btntext='Create an Account ' />
+                    <Button className='p bttn !text-white mr-6' btntext='Create an Account ' />
                     <Button className='!bg-transparent !border-black !text-black' btntext='Choose your plan' />
 
                 </div>

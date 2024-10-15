@@ -17,7 +17,7 @@ const Package = () => {
                         <h3>Monthly</h3>
                         <Switchant />
                         <h3>Yearly</h3>
-                        <Button className='bg-[#FFE87A] border-none p-2 !text-black' btntext='20%  discount' />
+                        <Button className='!bg-[#FFE87A] border-none p-2 !text-black' btntext='20%  discount' />
                     </div>
                 </div>
                 <div>

@@ -4,6 +4,8 @@ import Banner from './Component/Banner'
 import Hosting from './Component/Hosting'
 import Package from './Component/Package'
 import Customer from './Component/Customer'
+import Website from './Component/Website'
+import Footer from './Component/Footer'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Hosting/>
       <Package/>
       <Customer/>
+      <Website/>
+      <Footer/>
     </div>
   )
 }
