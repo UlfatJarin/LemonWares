@@ -2,11 +2,27 @@
   @apply font-Poppins font-semibold text-base text-black
 }
 .p{
-  @apply font-Poppins text-sm 
+  @apply font-Poppins text-sm font-normal text-black
+}
+.pI{
+  @apply font-Inter font-bold text-base leading-6 text-[#808080]
+}
+.pI2{
+  @apply font-Inter font-normal text-lg leading-8 text-[#18191F]
 }
 .h2{
   @apply font-Inter font-extrabold  text-[48px] text-[#18191F] leading-[64px]
 }
+.h3{
+  @apply font-Poppins font-bold text-xl text-black
+}
+.title{
+  @apply  font-Poppins font-semibold text-[50px] leading-[60px] text-black text-center max-w-[650px]
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 :where(.css-dev-only-do-not-override-1hpnbz2).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
   color: #b00000;
@@ -35,3 +51,39 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-switch.ant-switch-checked {
+  background: #b00000;
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+  background: #b00000;
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-btn-color-default {
+  color: rgba(0, 0, 0);
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-dev-only-do-not-override-1hpnbz2).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+  color: #000000;
+  border-color: #000000;
+  background: #ffffff;
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-dev-only-do-not-override-1hpnbz2).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #000000;
+  border-color: #000000;
+  background: #ffffff;
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-btn {
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  color: rgba(0, 0, 0, );
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-btn {
+  font-family: "Poppins", sans-serif;
+}
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-card-bordered {
+    border: 1.5px solid #C4C4C4;
+    border-radius: 15px;
+ }
+
+ 
