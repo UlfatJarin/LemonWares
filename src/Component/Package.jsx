@@ -8,7 +8,7 @@ import PakageCard from '../layer/PakageCard'
 const Package = () => {
     return (
         <div>
-            <Container className='max-w-[1097px] py-10 '>
+            <Container className='max-w-[1097px] py-20 '>
                 <div className='flex flex-col items-center  '>
                     <h2 className='title'>Ready to get started with
                         Lemon Wares? </h2>

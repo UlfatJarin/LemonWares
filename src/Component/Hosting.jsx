@@ -15,7 +15,7 @@ import Info from '../layer/Info'
 const Hosting = () => {
     return (
         <div >
-            <Container className='max-w-[1284px] py-10'>
+            <Container className='max-w-[1284px] py-20'>
                 <div className='grid grid-cols-2 mb-10'>
                     <div>
                         <h2 className='h2'>True Cloud Web  Hosting</h2>

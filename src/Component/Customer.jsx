@@ -11,7 +11,7 @@ import Serve from '../layer/Serve'
 const Customer = () => {
   return (
     <div>
-        <Container className='py-10 max-w-[1015px] relative'>
+        <Container className='py-10 my-10 max-w-[1015px] relative'>
             <div className='grid grid-cols-2 gap-8 '>
                 
                 <div className=' flex flex-col items-end z-10'>
